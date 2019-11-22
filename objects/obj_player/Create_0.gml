@@ -10,7 +10,7 @@ enum Direction {
 playerDirection = Direction.RIGHT;
 
 // abilities cooldown
-dashCooldown = 3;
+dashCooldown = 2;
 invisibleCooldown = 5;
 
 // abilities ready

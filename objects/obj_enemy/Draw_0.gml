@@ -1,15 +1,5 @@
 /// @description Draws the field of vision
-// You can write your code in this editor
 draw_set_color(c_black)
-//for (var i = 0; i < 5; i++) {
-//	draw_line(x, y, cone[i, 0], cone[i,1])
-//}
-
-/*
-for (var i = 0; i < 19; i++) {
-	draw_line(x, y, cone[i, 0], cone[i, 1])
-}
-*/
 
 var currAngle = initAngle
 for (var j = 0; j < 19; j++) {
