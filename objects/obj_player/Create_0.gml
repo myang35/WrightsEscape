@@ -1,6 +1,7 @@
 // player attributes
 playerSpeed = 5;
 
+// player states
 enum Direction {
 	UP,
 	DOWN,
@@ -8,6 +9,7 @@ enum Direction {
 	RIGHT
 }
 playerDirection = Direction.RIGHT;
+isInvisible = false;
 
 // abilities cooldown
 dashCooldown = 2;
@@ -15,4 +17,4 @@ invisibleCooldown = 5;
 
 // abilities ready
 dashReady = true;
-invisibleCooldown = true;
+invisibleReady = true;
