@@ -1,5 +1,5 @@
-// You can write your code in this editor
-initAngle = -45;
+numRays = 11;
+initAngle = -((numRays-1) * 5) / 2;
 enum states{
 	walking,
 	standing,

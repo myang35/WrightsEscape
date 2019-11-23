@@ -1,6 +1,6 @@
 /// @description Checks for collision
 var currAngle = initAngle
-for (var j = 0; j < 19; j++) {
+for (var j = 0; j < numRays; j++) {
 	for (var i = 50; i <= visionDistance; i+=50) {
 		var X = x + lengthdir_x(i, image_angle + currAngle)
 		var Y = y + lengthdir_y(i, image_angle + currAngle)
