@@ -17,4 +17,6 @@ if (dashReady) {
 	}
 	dashReady = false;
 	alarm_set(0, room_speed * dashCooldown);
+	
+	sprite_index = spr_player;
 }

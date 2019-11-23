@@ -7,7 +7,7 @@ for (var j = 0; j < 19; j++) {
 		if (collision_line(x, y, X, Y, obj_wall, false, true)) {
 			break
 		}
-		if collision_line(x, y, X, Y, obj_player, false, true) {
+		if (collision_line(x, y, X, Y, obj_player, false, true) && !obj_player.isInvisible) {
 			room_goto(rm_caught)
 			
 		}
