@@ -1,4 +1,5 @@
 /// @description Checks for collision
+
 var currAngle = initAngle
 for (var j = 0; j < numRays; j++) {
 	for (var i = 50; i <= visionDistance; i+=50) {
@@ -8,13 +9,23 @@ for (var j = 0; j < numRays; j++) {
 			break
 		}
 		if (collision_line(x, y, X, Y, obj_player, false, true) && !obj_player.isInvisible) {
-			room_goto(rm_caught)
-			
+			state = states.chasing;
 		}
 	}
 	
 	currAngle += 5
 }
+
+if (state == states.chasing) {
+	if (instance_exists(obj_player)) {
+		var _angle = point_direction(x,y,obj_player.x,obj_player.y);
+		var _diff = angle_difference( _angle, image_angle );
+		image_angle += min( max_turn, abs(_diff) ) * sign(_diff);
+		path_end();
+		mp_potential_step_object(obj_player.x, obj_player.y, 4, obj_wall);
+	}
+}
+
 if (state == states.walking&&(path_position == 0||path_position == 1)){
 	path_speed = 0;
 	state = states.standing; 
@@ -23,9 +34,10 @@ if (state == states.walking&&(path_position == 0||path_position == 1)){
 }
 
 
-if(state == states.turning && numTurns > 0){
+if(state == states.turning && numTurns > 0 && !seePlayer) {
 	image_angle +=2;
 	numTurns -= 1;
+	originalAngle = image_angle;
 	show_debug_message("numTurns = " + string(numTurns));
 }
 if(numTurns <= 0 && alarm2Set == false){

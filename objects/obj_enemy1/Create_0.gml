@@ -15,6 +15,8 @@ alarm2Set = false;
 
 visionDistance = 200;
 
+max_turn = 10;
+
 timeline_index=rotateTimeline;
 timeline_loop = 1;
 timeline_running = 1;

@@ -15,3 +15,8 @@ alarm2Set = false;
 
 visionDistance = 200;
 
+max_turn = 10;
+
+originalAngle = image_angle;
+
+seePlayer = false;
