@@ -30,7 +30,12 @@ if(state == states.turning && numTurns > 0){
 }
 if(numTurns <= 0 && alarm2Set == false){
 	path_speed = 2;
-	alarm_set(2, room_speed);
+	alarm_set(2, room_speed/10);
 	alarm2Set = true;
 }
-	
+
+if (state == states.standing || state == states.turning) {
+	image_speed = 0;
+} else {
+	image_speed = 1;
+}

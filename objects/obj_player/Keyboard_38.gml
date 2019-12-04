@@ -1,5 +1,7 @@
 if (!place_meeting(x, y-playerSpeed, obj_wall)) {
 	y -= playerSpeed;
+	image_speed = 1;
+	image_angle = 0;
 	playerDirection = Direction.UP;
 }
 
