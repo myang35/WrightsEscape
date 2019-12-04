@@ -14,9 +14,5 @@ for (var j = 0; j < numRays; j++) {
 	currAngle += 5
 }
 
-//enable shader
 
-
-//draw outlined sprite
-draw_self();
-
+draw_self()
