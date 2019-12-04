@@ -10,7 +10,7 @@ repeat (buttons) {
 	
 	if (menuIndex == i) {
 		draw_set_color(c_white); 
-		draw_set_font(fnt_selected);
+		draw_set_font(fnt_emphasize);
 	}
 	
 	draw_text(x, y + buttonH * i, button[i]);
