@@ -1,4 +1,4 @@
-// decelerate
+ // decelerate
 vspeed -= sign(vspeed);
 hspeed -= sign(hspeed);
 
