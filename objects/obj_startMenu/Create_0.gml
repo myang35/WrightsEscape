@@ -1,6 +1,5 @@
 /// @description Creates Buttons list
-menuX = x;
-menuY = y;
+global.gameStart = false;
 buttonH = 32
 
 button[0] = "START";

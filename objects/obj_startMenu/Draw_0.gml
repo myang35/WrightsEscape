@@ -1,4 +1,6 @@
 /// @description Draws the menu options
+draw_set_halign(fa_left);
+draw_set_valign(fa_center)
 
 var i = 0;
 repeat (buttons) {
@@ -11,6 +13,6 @@ repeat (buttons) {
 		draw_set_font(fnt_selected);
 	}
 	
-	draw_text(menuX, menuY + buttonH * i, button[i]);
+	draw_text(x, y + buttonH * i, button[i]);
 	i++;
 }

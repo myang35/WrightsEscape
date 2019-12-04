@@ -1,10 +1,9 @@
 /// @description Selecting menu option
 switch(menuIndex) {
 	case 0:
-		room_goto(rm_level1);
-		break;
+		global.gameStart = true;
 	case 1:
-		room_goto(rm_instructions );
+		room_goto(rm_text);
 		break;
 	case 2:
 		game_end();
