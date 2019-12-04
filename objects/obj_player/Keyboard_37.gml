@@ -1,6 +1,8 @@
 // player movement
 if (!place_meeting(x-playerSpeed, y, obj_wall)) {
 	x -= playerSpeed;
+	image_speed = 1;
+	image_angle = 90;
 	playerDirection = Direction.LEFT;
 }
 
