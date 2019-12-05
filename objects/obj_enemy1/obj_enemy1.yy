@@ -43,6 +43,16 @@
             "enumb": 2,
             "eventtype": 2,
             "m_owner": "ddffc768-680d-4dbe-aff2-5018b91a1267"
+        },
+        {
+            "id": "f098e5b0-049d-4183-922d-d84e48318eff",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ddffc768-680d-4dbe-aff2-5018b91a1267"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,7 +73,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "11261582-8ed4-4279-be29-0988f2fcf83e",
+            "id": "6524e373-d59a-4367-bf7e-853619834802",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -71,10 +81,24 @@
             "rangeEnabled": false,
             "rangeMax": 10,
             "rangeMin": 0,
-            "resourceFilter": 8,
-            "value": "path0",
-            "varName": "enemyPath",
+            "resourceFilter": 128,
+            "value": "rotateTimeline",
+            "varName": "enemyTimeline",
             "varType": 5
+        },
+        {
+            "id": "e0fb6530-2156-4394-8b8e-0b4c507d09b5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "turnDirection",
+            "varType": 1
         }
     ],
     "solid": false,

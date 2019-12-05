@@ -8,7 +8,7 @@ enum states{
 	topath
 }
 state = states.standing;
-alarm_set(0, room_speed * 2);
+alarm_set(0, 1);
 
 numTurns = 90
 alarm2Set = false;

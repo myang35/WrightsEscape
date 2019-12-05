@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "04a04ec7-3207-4b4f-80c5-3c1245f482b9",
+            "Value": {
+                "id": "7604e032-021b-4b8f-950c-13be7260b275",
+                "resourcePath": "timelines\\rotate180\\rotate180.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
+            "Key": "05351f9a-6b86-4c47-a7b7-587c09c23322",
+            "Value": {
+                "id": "12a97d98-73e5-4532-b8b2-082b7bc1c9ee",
+                "resourcePath": "timelines\\rotate90\\rotate90.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "078d01b4-c017-4807-9112-2d31eeeb5226",
             "Value": {
                 "id": "d7b868e3-26b6-4f71-a9f8-753732018c00",
@@ -388,6 +404,14 @@
                 "id": "57c3cb0b-d992-4dc8-8ada-35f9871271a8",
                 "resourcePath": "paths\/path2\/path2.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "b501fb59-a510-4205-b731-c15f3f339aa6",
+            "Value": {
+                "id": "d0b63269-e765-4b86-911e-b0b2ce51b60b",
+                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
