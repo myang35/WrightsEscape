@@ -33,6 +33,9 @@ if (state == states.walking&&(path_position == 0||path_position == 1)){
 	alarm_set(1, room_speed * 2);
 }
 
+if (state == states.walking) {
+	image_angle = direction;
+}
 
 if(state == states.turning && numTurns > 0 && !seePlayer) {
 	image_angle +=2;
