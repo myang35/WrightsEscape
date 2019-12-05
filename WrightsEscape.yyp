@@ -50,7 +50,7 @@
             "Key": "04a04ec7-3207-4b4f-80c5-3c1245f482b9",
             "Value": {
                 "id": "7604e032-021b-4b8f-950c-13be7260b275",
-                "resourcePath": "timelines\\rotate180\\rotate180.yy",
+                "resourcePath": "timelines\/rotate180\/rotate180.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -58,7 +58,7 @@
             "Key": "05351f9a-6b86-4c47-a7b7-587c09c23322",
             "Value": {
                 "id": "12a97d98-73e5-4532-b8b2-082b7bc1c9ee",
-                "resourcePath": "timelines\\rotate90\\rotate90.yy",
+                "resourcePath": "timelines\/rotate90\/rotate90.yy",
                 "resourceType": "GMTimeline"
             }
         },
@@ -282,7 +282,7 @@
             "Key": "6fcd5910-0bef-419f-be3d-9d7d41931cf8",
             "Value": {
                 "id": "e4fc1bf4-beb7-4c87-9bef-6e5fd62ec7d7",
-                "resourcePath": "paths\\path11\\path11.yy",
+                "resourcePath": "paths\/path11\/path11.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -410,7 +410,7 @@
             "Key": "b501fb59-a510-4205-b731-c15f3f339aa6",
             "Value": {
                 "id": "d0b63269-e765-4b86-911e-b0b2ce51b60b",
-                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
+                "resourcePath": "objects\/obj_controller\/obj_controller.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -434,7 +434,7 @@
             "Key": "c03ef99a-b441-435f-b579-46b7b1132f4e",
             "Value": {
                 "id": "b1d029b7-cbc9-4717-8481-47c852c4bee1",
-                "resourcePath": "paths\\path9\\path9.yy",
+                "resourcePath": "paths\/path9\/path9.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -444,6 +444,14 @@
                 "id": "4165257d-1cc3-47f1-842d-89d2a1df4432",
                 "resourcePath": "views\/c0505e9b-0733-464f-b6d7-1bdcbc075985.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c2d8b66b-b5bb-4da9-890a-947b79833aa4",
+            "Value": {
+                "id": "77934eb3-1ac7-4186-8f44-697d2943da4b",
+                "resourcePath": "sprites\/spr_lives\/spr_lives.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -458,7 +466,7 @@
             "Key": "c6c85ccb-8ce9-4bb9-b74e-ee9e830a685c",
             "Value": {
                 "id": "621c6c19-e931-486d-bfdd-3572aac1dc75",
-                "resourcePath": "sprites\\spr_timeBar\\spr_timeBar.yy",
+                "resourcePath": "sprites\/spr_timeBar\/spr_timeBar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -474,7 +482,7 @@
             "Key": "cfc65d1d-cedc-46ec-98b4-06ef3643459b",
             "Value": {
                 "id": "1f1d004c-ff56-4957-8600-cb814cf26d03",
-                "resourcePath": "paths\\path10\\path10.yy",
+                "resourcePath": "paths\/path10\/path10.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -490,7 +498,7 @@
             "Key": "d8e30a8d-ff6e-4c38-af23-720c032f3d7e",
             "Value": {
                 "id": "545667f8-72af-4805-82c8-1d8dfd91573b",
-                "resourcePath": "paths\\path13\\path13.yy",
+                "resourcePath": "paths\/path13\/path13.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -506,7 +514,7 @@
             "Key": "dfbe58df-c1c4-4ac0-b537-b2441f19706f",
             "Value": {
                 "id": "3cf14ce3-bbbe-4a4d-8f86-6a2d56857251",
-                "resourcePath": "objects\\obj_timeBar\\obj_timeBar.yy",
+                "resourcePath": "objects\/obj_timeBar\/obj_timeBar.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -530,7 +538,7 @@
             "Key": "ec0ce239-0acf-4727-8854-aae6d4515f0b",
             "Value": {
                 "id": "84d69b74-caf0-46ad-8883-325652251be2",
-                "resourcePath": "rooms\\rm_level3\\rm_level3.yy",
+                "resourcePath": "rooms\/rm_level3\/rm_level3.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -554,7 +562,7 @@
             "Key": "f35c7f46-7125-43df-854f-c1049ee58990",
             "Value": {
                 "id": "a5c45248-41bb-427a-9fcc-6ab653349bf3",
-                "resourcePath": "paths\\path12\\path12.yy",
+                "resourcePath": "paths\/path12\/path12.yy",
                 "resourceType": "GMPath"
             }
         },
