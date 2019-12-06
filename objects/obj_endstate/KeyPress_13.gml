@@ -1,2 +1,2 @@
-/// @description To start level 1
+/// @description To go to startmenu
 room_goto(rm_startMenu)
