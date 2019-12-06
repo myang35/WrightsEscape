@@ -1,8 +1,8 @@
 # WrightsEscape
 
-Garrison Bolick,
-Brenda Vang,
-Kolby Viera,
+Garrison Bolick
+Brenda Vang
+Kolby Viera
 Marvin Yang
 
 To beat the game, you must avoid the guards and the lights. 
