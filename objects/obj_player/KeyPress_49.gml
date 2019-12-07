@@ -17,7 +17,15 @@ if (dashReady) {
 			break;
 	}
 	dashReady = false;
+	dashCooldownStart = true;
 	alarm_set(0, room_speed * dashCooldown);
 	
-	sprite_index = spr_player;
+	if (isInvisible) {
+		sprite_index = spr_player;
+		isInvisible = false;
+		invisibleReady = false;
+		invisibleCooldownStart = true;
+		alarm_set(1, room_speed * invisibleCooldown);
+	}
+	
 }
