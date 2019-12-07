@@ -42,7 +42,7 @@
             "Key": "02333c64-ecfd-4e6c-a6dd-491eb437a239",
             "Value": {
                 "id": "5cc9ab6b-2a65-4816-95a2-8a810f65ed8d",
-                "resourcePath": "objects\\obj_invisCooldown\\obj_invisCooldown.yy",
+                "resourcePath": "objects\/obj_invisCooldown\/obj_invisCooldown.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -234,7 +234,7 @@
             "Key": "423483a8-a65c-4d25-9745-4eb3e704d585",
             "Value": {
                 "id": "92973e1c-2a71-4042-9dbf-8afe91ad4752",
-                "resourcePath": "sounds\/snd_menuselect\/snd_menuselect.yy",
+                "resourcePath": "sounds\/snd_menuscroll\/snd_menuscroll.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -266,7 +266,7 @@
             "Key": "5e5d24eb-e8f2-4d0b-af60-375a313598a2",
             "Value": {
                 "id": "7ba2816c-0e6b-4c92-a5c9-0edce4ec94a6",
-                "resourcePath": "objects\\obj_timeDrop\\obj_timeDrop.yy",
+                "resourcePath": "objects\/obj_timeDrop\/obj_timeDrop.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -394,7 +394,7 @@
             "Key": "990fd7ff-ca48-4eac-82a9-7f33694d3939",
             "Value": {
                 "id": "ff387851-c4de-463f-a6be-fdbfa929d3da",
-                "resourcePath": "sounds\/snf_menuscroll\/snf_menuscroll.yy",
+                "resourcePath": "sounds\/snd_menuselect\/snd_menuselect.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -538,7 +538,7 @@
             "Key": "c2f6281c-b39b-41e4-b5ba-7757eaadd332",
             "Value": {
                 "id": "2e52d4f2-d3ff-4b1b-9675-abcf56b3806b",
-                "resourcePath": "sprites\\spr_InvisDown\\spr_InvisDown.yy",
+                "resourcePath": "sprites\/spr_InvisDown\/spr_InvisDown.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -618,7 +618,7 @@
             "Key": "e18aa483-f152-4d10-a776-7a09d733143f",
             "Value": {
                 "id": "8d9491dd-8504-4936-9279-493175590356",
-                "resourcePath": "objects\\obj_dashCooldown\\obj_dashCooldown.yy",
+                "resourcePath": "objects\/obj_dashCooldown\/obj_dashCooldown.yy",
                 "resourceType": "GMObject"
             }
         },
