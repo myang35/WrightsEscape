@@ -1,5 +1,4 @@
 /// @description Checks for collision
-
 var currAngle = initAngle
 for (var j = 0; j < numRays; j++) {
 	for (var i = 50; i <= visionDistance; i+=50) {
@@ -18,6 +17,10 @@ for (var j = 0; j < numRays; j++) {
 
 if (state == states.chasing) {
 	if (instance_exists(obj_player)) {
+		if (soundPlayed == false) {
+			audio_play_sound(snd_alert, 1, false);
+			soundPlayed = true;
+		}
 		var _angle = point_direction(x,y,obj_player.x,obj_player.y);
 		var _diff = angle_difference( _angle, image_angle );
 		image_angle += min( max_turn, abs(_diff) ) * sign(_diff);

@@ -1,4 +1,5 @@
 /// @description Selecting menu option
+audio_play_sound(snd_menuselect,1,0);
 switch(menuIndex) {
 	case 0:
 		global.gameStart = true;

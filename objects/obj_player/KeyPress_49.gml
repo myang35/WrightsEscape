@@ -1,5 +1,6 @@
 /// @description Dash
 if (dashReady) {
+	audio_play_sound(snd_dash, 1, 0);
 	var dashSpeed = 15;
 	switch (playerDirection) {
 		case Direction.UP:
