@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "02333c64-ecfd-4e6c-a6dd-491eb437a239",
+            "Value": {
+                "id": "5cc9ab6b-2a65-4816-95a2-8a810f65ed8d",
+                "resourcePath": "objects\\obj_invisCooldown\\obj_invisCooldown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "03c0b4c8-1d86-41ec-8524-ecb40d62a9fb",
             "Value": {
                 "id": "d81edda2-561c-4485-a046-3a618dd49831",
@@ -243,6 +251,14 @@
             "Value": {
                 "id": "c0372725-60b6-4705-b1d7-3255b011dc13",
                 "resourcePath": "objects\/obj_endstate\/obj_endstate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5e5d24eb-e8f2-4d0b-af60-375a313598a2",
+            "Value": {
+                "id": "7ba2816c-0e6b-4c92-a5c9-0edce4ec94a6",
+                "resourcePath": "objects\\obj_timeDrop\\obj_timeDrop.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "c2f6281c-b39b-41e4-b5ba-7757eaadd332",
+            "Value": {
+                "id": "2e52d4f2-d3ff-4b1b-9675-abcf56b3806b",
+                "resourcePath": "sprites\\spr_InvisDown\\spr_InvisDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c6aa386d-ddc8-4d42-847f-e0c464536ab6",
             "Value": {
                 "id": "4516d81d-8b8d-4791-9b94-c067fd27db5c",
@@ -531,6 +555,14 @@
             "Value": {
                 "id": "3cf14ce3-bbbe-4a4d-8f86-6a2d56857251",
                 "resourcePath": "objects\/obj_timeBar\/obj_timeBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e18aa483-f152-4d10-a776-7a09d733143f",
+            "Value": {
+                "id": "8d9491dd-8504-4936-9279-493175590356",
+                "resourcePath": "objects\\obj_dashCooldown\\obj_dashCooldown.yy",
                 "resourceType": "GMObject"
             }
         },
