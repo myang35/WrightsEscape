@@ -17,5 +17,3 @@ if (!keyboard_check(vk_up)
 	image_speed = 0;
 	image_index = 0;
 }
-
-show_debug_message("playerLives = " + string(global.playerLives));

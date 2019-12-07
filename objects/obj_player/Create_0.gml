@@ -16,7 +16,9 @@ isInvisible = false;
 
 // abilities cooldown
 dashCooldown = 2;
+dashCooldownStart = false;
 invisibleCooldown = 5;
+invisibleCooldownStart = false;
 
 // abilities ready
 dashReady = true;
