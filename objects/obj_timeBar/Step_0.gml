@@ -7,5 +7,5 @@ else{
 	currentTime = 0
 }
 if(currentTime <= 0){
-	room_goto(rm_caught);
+	scr_playerCaught();
 }
