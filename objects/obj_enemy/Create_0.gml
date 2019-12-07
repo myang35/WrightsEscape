@@ -1,3 +1,5 @@
+soundPlayed = false;
+
 numRays = 11;
 initAngle = -((numRays-1) * 5) / 2;
 enum states{
