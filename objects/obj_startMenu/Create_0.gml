@@ -1,4 +1,8 @@
 /// @description Creates Buttons list
+if (!audio_is_playing(snd_start)) {
+	audio_stop_all();
+	audio_play_sound(snd_start, 1, 1);
+}
 global.gameStart = false;
 buttonH = 32
 
