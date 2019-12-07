@@ -1,6 +1,6 @@
 // player attributes
 playerSpeed = 5;
-if (!variable_global_exists("playerLives")) {
+if (!variable_global_exists("playerLives") || global.playerLives <= 0) {
 	global.playerLives = 3;
 }
 
